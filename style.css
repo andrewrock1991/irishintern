@@ -1,0 +1,149 @@
+html{
+background-color:#2E3137;
+/*background-size*/
+
+   -moz-background-size:cover;
+        background-size:cover;
+}
+
+.rainbow
+{
+	border-image: url("/images/rainbow.jpg")20 5 20 5 stretch stretch;
+	opacity: 0.6;
+}
+
+
+h1{
+text-align:center;
+color: #E5DDCB;
+font-size: 66px;
+line-height: 20px;
+	text-shadow: 0 0 2px;
+}
+
+h2{
+	text-align: center;
+	color:#E5DDCB;
+	font-size:25px;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	
+}
+
+h3{
+	text-align: center;
+	color:#fff;
+	font-size :15px;
+	font-family: sans-serif;
+	padding-top:1.5%;
+}
+
+
+
+.navcontainer ul{
+padding-top:1.5%;
+list-style-type:none;
+font-size:50px;
+font-family: sans-serif;
+text-align:center;
+
+}
+
+
+
+li{
+display:inline;
+}
+
+li a{
+text-decoration:none;
+font-size:25px;
+color:#D1F2A5;
+padding-top:1%;
+padding:3px 16px;
+border-right:1px solid #F27435;
+}
+
+li a:hover{
+font-size:25px;
+}
+
+hr
+{
+border:none;
+background-color:#ccc;
+opacity:0.5;
+height:1.5px;
+}
+
+.ny
+{
+color:#1487C0;
+}
+
+.chi
+{
+	color:#E22D60;
+}
+
+.phi
+{
+	color:#FFCC00;
+}
+
+
+
+
+.outer{
+  margin-top: 1.5%;
+  text-align: center;
+        }
+
+
+.outer img{
+	padding:3%;
+    margin-top: 2.75%;
+    text-align: center; 
+    }
+
+
+
+
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+	color:#FF7077;
+}
+
+.cl-effect-1 a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+.cl-effect-1 a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after,
+.cl-effect-1 a:focus::before,
+.cl-effect-1 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+	
+}
+
+
+

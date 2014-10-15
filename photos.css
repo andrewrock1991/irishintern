@@ -1,0 +1,402 @@
+html
+{
+         background-color:#2E3137;
+         -moz-background-size:cover;
+         background-size:cover;
+}
+	
+     .rainbow
+{
+	border-image: url("/images/rainbow.jpg") 20 0 20 0 stretch stretch;
+	
+}
+   
+.navcontainer ul
+{
+padding-top:1.5%;
+list-style-type:none;
+font-size:50px;
+font-family: 'Open Sans', sans-serif;
+text-align:center;
+}
+
+
+h3{
+	text-align: center;
+	color: #f1a3cd;
+	font-size: 1.4em;
+	font-family: 'Lato', Calibri, Arial, sans-serif;	
+}
+
+h2 {
+    position: relative;
+    margin-top: 20px;
+	text-align: center;
+	font-weight: 300;
+	font-size: 2em;
+	color: #85BB65;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+  
+
+h2.one:before {  
+    content: "";  
+    display: block;  
+    text-align: center;
+    border-top: solid 1px #ccc;  
+    width: 100%;  
+    height: 1px;  
+    position: absolute;  
+    top: 50%;  
+    z-index: 1;  
+}  
+
+
+
+h2.one span {  
+    background:#2E3137; 
+    padding: 0 20px;  
+    position: relative;  
+    z-index: 5;  
+    text-align: center;
+}  
+
+.introImage
+{
+		text-align:center;	
+		display:inline;
+		
+		}
+
+
+
+li{
+display:inline;
+}
+li a{
+text-decoration:none;
+font-size:25px;
+color:#D1F2A5;
+padding-top:1%;
+padding:3px 16px;
+border-right:1px solid #F27435;
+}
+
+li a:hover{
+font-size:25px;
+}
+
+hr
+{
+border:none;
+background-color:#ccc;
+opacity:0.1;
+height:1.5px;
+}
+
+p
+{
+font-weight: 300;
+font-size: 2em;
+	text-align: center;
+	font-variant: normal;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	
+}
+
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+body {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	min-height: 800px;
+}
+
+a {
+	color: #ccc;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+}
+
+.main,
+.container > header {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 1.875em 3.125em 1.875em;
+}
+
+.main {
+	max-width: 69em;
+	padding-top: 2em;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 0 2em;
+    min-width: 320px;
+	position: relative;
+}
+
+.column:nth-child(2) {
+	min-height: 185px;
+	box-shadow: -1px 0 0 rgba(0,0,0,0.1);
+	background: url("/images/clickhere.png") 90px 0 no-repeat;
+}
+
+.column:last-child:before {
+	content: '';
+	position: absolute;
+	height: 7px;
+	background: #ceccc6;
+	top: 100px;
+	left: 10px;
+}
+
+.column p {
+	
+	padding: 0;
+	margin: 0;
+	text-align: right;
+	line-height: 1.5;
+	color: #85BB65;
+	font-weight: 300;
+	font-size: 1.5em;
+}
+
+.container > header {
+	padding: 2.875em 1.875em 2.875em;
+	text-align: center;
+	background: rgba(0,0,0,0.01);
+}
+
+.container > header h1 {
+	font-size: 2.625em;
+	line-height: 1.3;
+	margin: 0;
+	color: #89867e;
+	font-weight: 300;
+}
+
+.container > header span {
+	display: block;
+	font-size: 60%;
+	color: #ceccc6;
+	padding: 0 0 0.6em 0.1em;
+}
+
+.flag
+{
+	
+	float: right;
+}
+
+
+@media screen and (max-width: 46.0625em) {
+
+	.main {
+		padding: 0;
+	}
+
+	.column {
+		width: 100%;
+		min-width: auto;
+		min-height: auto;
+		padding: 3em 2em; 
+	}
+
+	.column p {
+		text-align: left;
+		font-size: 1.5em;
+	}
+
+	.column:nth-child(2) {
+		box-shadow: 0 -1px 0 rgba(0,0,0,0.1);
+		background-position: 90px 3em;
+	}
+}
+
+	
+	
+
+
+
+ul#grid
+{
+padding:0;
+list-style:none;
+margin:20px auto 0;
+padding-left: 45px;
+width:100%;
+}
+
+
+#grid li
+{
+float:left;
+padding:0;
+margin:0 5px 10px 5px;
+}
+
+#grid li a
+{
+display:block;
+}
+
+
+#grid li img
+{
+background-color:#C5E0DC;
+padding:7px;
+margin:0;
+width:340px;
+height:245px;
+}
+
+#grid li a:hover img
+{
+-webkit-transform: rotate(-7deg);
+-moz-transform: rotate(-7deg);
+-o-transform: rotate(-7deg); 
+
+}
+
+
+.grid_display
+{
+padding:20px;
+margin-left:auto;
+margin-right:auto;
+margin-top:50px;
+margin-bottom:0;
+width:513px;
+font-family:'GraublauWeb', arial, serif;
+text-align:center;
+}
+
+div.grid_display h2
+{
+padding:0;
+margin:0;
+clear:both;
+font-size:35px;
+font-weight:normal;
+color:#58595b;
+background:none;
+font-family:'GraublauWeb', arial, serif;
+text-transform:none;
+letter-spacing:normal;
+}
+
+
+.grid_display p{
+margin:0;
+padding:0;
+font-size:15px;
+color:#58595b;
+}
+
+
+
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+	color:#FF7077;
+}
+
+.cl-effect-1 a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+.cl-effect-1 a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after,
+.cl-effect-1 a:focus::before,
+.cl-effect-1 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+	
+}
+
+#back-top {
+    position: fixed;
+	bottom: 30px;
+	margin-left: -150px;
+}
+
+#back-top a {
+	width: 108px;
+	display: block;
+	text-align: center;
+	font: 11px/100% Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #bbb;
+
+	/* transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover {
+	color: #000;
+}
+
+/* arrow icon (span tag) */
+#back-top span {
+	width: 108px;
+	height: 108px;
+	display: block;
+	margin-bottom: 7px;
+	background: #ddd url(up-arrow.png) no-repeat center center;
+
+	/* rounded corners */
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+
+	/* transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover span {
+	background-color: #777;
+}

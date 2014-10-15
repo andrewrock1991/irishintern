@@ -1,0 +1,6 @@
+Options +Indexes
+AuthType Basic
+AuthName "irishintern.com Statistics"
+AuthUserFile /var/chroot/home/content/10/11757010/html/stats/.statspwd
+Require valid-user
+DirectoryIndex index.html
